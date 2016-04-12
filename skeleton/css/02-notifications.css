@@ -9,3 +9,31 @@
 .header a:hover .badge {
   background-color: red;
 }
+
+.header li:hover .notification-dropdown{
+  display: block;
+}
+
+.notification-dropdown {
+  display: none;
+  position: absolute;
+  top: 39;
+  left: 0;
+  color: black;
+  font-size: 12px;
+}
+
+.notification-dropdown a{
+  width: 240px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  background-color: #fff;
+}
+
+.notification-dropdown a:hover{
+  background-color: #eee;
+}
+
+.notification-dropdown > li:last-child a{
+  border-radius: 0 0 5px 5px;
+}

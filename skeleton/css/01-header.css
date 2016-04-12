@@ -3,11 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  background-color: #eee;
 }
 
 .header{
-  background-color:red;
-  color: white;
+  background-color: #f00;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  z-index: 1;
+  min-width: 900px;
 }
 
 .header-nav{
@@ -16,18 +21,19 @@ body {
 }
 
 .header a {
-  border-left: 1px solid white;
+  border-left: 1px solid #ccc;
   display: block;
   padding: 10px 20px;
+  position: relative;
 }
 
 .header a:hover{
-  background-color: black;
+  background-color: #000;
 }
 
 .header-logo{
   float: left;
-  border-right: 1px solid white;
+  border-right: 1px solid #ccc;
   font-weight: 700;
 }
 
@@ -35,10 +41,14 @@ body {
   float: right;
 }
 
-.header-list li{
+.header-list > li{
   float:left
 }
 
-.header-list li:last-child{
-  border-right: 1px solid white;
+.header-list > li:last-child{
+  border-right: 1px solid #ccc;
+}
+
+#notification {
+  position: relative;
 }
