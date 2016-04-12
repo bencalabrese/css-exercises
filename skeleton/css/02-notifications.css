@@ -37,3 +37,7 @@
 .notification-dropdown > li:last-child a{
   border-radius: 0 0 5px 5px;
 }
+
+.notification-dropdown > li:first-child a{
+  border-top: 1px solid #ccc;
+}
