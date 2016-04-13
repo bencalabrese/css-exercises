@@ -4,6 +4,7 @@
   position: relative;
   z-index: 1;
   background: url("../../shared/img/cats.jpg");
+  min-height: 200px;
   background-size: cover;
   border-bottom: 1px solid #ccc;
   border-top: 0;
